@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    padding:  5% 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ ol {
+    list-style-type:decimal;
+    padding: 0;
+ }
+
+ ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position:inside;
+    color: #00f;
+line-height: 1.6;
+list-style-image: url();
+}
+/* list-style:square url() inside; short hand property */
+
+ul li:nth-child(2)  {
+      
+    color: red;
+}
+ /* can also write even or odd */
+ 
+ ul ::marker {
+   color: red;
+   font-family: fantasy;
+   font-size: 0.5em;
+   content: "Only $5>>";
+ }
