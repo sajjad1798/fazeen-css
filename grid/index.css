@@ -51,7 +51,7 @@ body {
 
 .box {
   background-color: #000;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   font-size: 2rem;
   padding: 0.5rem;
 }
