@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-size: 2rem;
-    font-family: "Roboto",sans-serif;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 
 /* p {
@@ -24,24 +23,23 @@ background-color: lightgray;
 } */
 
 ul {
-    list-style-type: none;
-    padding: 0.5rem;
-    text-align: right;
-    background-color: black;
-    margin: 0;
+  list-style-type: none;
+  padding: 0.5rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
 }
 li {
-    display: inline-block;
-    margin-inline: 0.5rem;
+  display: inline-block;
+  margin-inline: 0.5rem;
 }
 
 li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-li a:hover, 
+li a:hover,
 li a:focus {
-        text-decoration: underline;
+  text-decoration: underline;
 }
-  

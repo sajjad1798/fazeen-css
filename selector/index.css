@@ -1,4 +1,4 @@
-  /* * {
+/* * {
    font-family: monospace;
    border:3px solid black;
   } */
@@ -10,36 +10,39 @@ html {
 /* html element can be used instead of body it better serves for inheritence */
 
 main {
-
   font-family: monospace;
 }
-  button, input, textarea, select {
-    font:inherit    
-  }
-  /* used bcz they usually do not inherit */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+/* used bcz they usually do not inherit */
 
-h1, h2 {
-    color: blue;
+h1,
+h2 {
+  color: blue;
 }
 /* put a comma btwn them if not placed it would for h2 inside h1  */
 
-p{
-    color: purple;
+p {
+  color: purple;
 }
 
 .highlight {
-    text-transform: uppercase;
-    background-color: gold;
+  text-transform: uppercase;
+  background-color: gold;
 }
 /* class inside span is better than only span  */
 
 .gray {
-    color: gray;
+  color: gray;
 }
 /* . for class may be more than a class . classes are more specific than element */
 
 #second {
-    font-style: italic;
+  font-style: italic;
 }
 /* # for id  use as less as possible but it has high specificity */
 /* element class id specificity order */
