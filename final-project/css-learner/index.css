@@ -1,0 +1,152 @@
+||RESET * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: auto;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+nav {
+  background-color: white;
+  margin-bottom: 2rem;
+  height: 50px;
+  text-align: end;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 5rem;
+  list-style-position: inside;
+}
+
+ul li:hover {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "pr sb sb2 cn"
+    "pr sb sb2 cn"
+    "pr sb sb2 cn";
+}
+
+.production {
+  grid-area: pr;
+  background-color: white;
+  width: 85%;
+  border: 1px solid lightslategrey;
+  /* height: 100px; */
+}
+
+.pro-img {
+  display: flex;
+  place-content: space-between;
+}
+
+.message {
+  padding-left: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  border: 3px solid rgb(238, 228, 228);
+}
+
+.dots {
+  padding-right: 10px;
+  background-color: lightgoldenrodyellow;
+}
+
+.sent-1 {
+  grid-area: sb;
+  background-color: white;
+  width: 85%;
+  border: 1px solid lightslategrey;
+}
+
+.sn-img {
+  display: flex;
+  place-content: space-between;
+}
+
+.sent-2 {
+  grid-area: sb2;
+  background-color: white;
+  width: 85%;
+  border: 1px solid lightslategrey;
+}
+
+.sn2-img {
+  display: flex;
+  place-content: space-between;
+}
+
+.connect {
+  /* background-color: mediumblue; */
+  width: 85%;
+  text-align: center;
+  /* height: 100%; */
+  border: 1px dashed midnightblue;
+  background-image: url(img/blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.con-img {
+  background-color: midnightblue;
+}
+
+thead,
+tbody,
+tfoot,
+tr {
+  display: contents;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.1em;
+  margin-bottom: 1em;
+}
+
+.table__header,
+.table__items {
+  width: 100%;
+  padding: 1em;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.table__header {
+  border-bottom: 2px solid black;
+}
+.table__items {
+  border-bottom: 1px solid rgb(255, 200, 200);
+}
+
+.footer {
+  background-color: white;
+  display: flex;
+  place-content: space-between;
+}
